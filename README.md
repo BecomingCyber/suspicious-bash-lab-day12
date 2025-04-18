@@ -2,7 +2,6 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/BecomingCyber/suspicious-bash-lab-day12?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/BecomingCyber/suspicious-bash-lab-day12?style=flat-square)
-![GitHub](https://img.shields.io/github/license/BecomingCyber/suspicious-bash-lab-day12?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/BecomingCyber/suspicious-bash-lab-day12?style=flat-square)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mozella-mccoy-flowers)
 
